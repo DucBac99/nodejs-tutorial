@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "nDBac Fullstack backend zero",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DucBac99/nodejs-tutorial.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "nDBac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DucBac99/nodejs-tutorial/issues"
+  },
+  "homepage": "https://github.com/DucBac99/nodejs-tutorial#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
