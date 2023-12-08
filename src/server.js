@@ -1,7 +1,11 @@
 const express = require('express')
 const path = require('path')
+require('dotenv').config()
+
 const app = express()   //app express
-const port = 3000     // khai báo port
+const port = process.env.PORT || 8888   // khai báo port
+const hostname = process.env.HOST_NAME
+
 
 //config template engines
 app.set('views', path.join(__dirname, 'views'));
