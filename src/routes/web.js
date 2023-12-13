@@ -1,12 +1,10 @@
 const express = require('express');
 const router = express.Router();
-//khai báo route
-router.get('/', (req, res) => {
-    res.send('Hello World!')
-})
+const {getHomepage, ejs} = require('../controllers/homeController');
 
-router.get('/ejs', (req, res) => {
-    res.render('sample.ejs')
-})
+//khai báo route
+router.get('/', getHomepage)
+
+router.get('/ejs', ejs)
 
 module.exports = router;
