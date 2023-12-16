@@ -72,3 +72,7 @@ tr:hover {background-color: #ccc;}
     font-weight: 600;
     padding-bottom: 10px;
 }
+
+.d-none {
+    display: none;
+}
